@@ -1,0 +1,144 @@
+header {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+header .logo {
+    width: 120px;
+    height: auto;
+}
+
+nav {
+    display: block;
+    background-color: #333;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-news-container {
+    margin-top: 24px;
+}
+
+.news-item {
+    /*padding: 12px;*/
+    text-align: left;
+    /*background-color: rgb(209, 209, 209);*/
+    margin-top: 20px;
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.news-item .news-title {
+    font-size: 24px;
+}
+
+.news-item .news-title a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.news-item .news-ex {
+    color: #a5a5a5a5;
+}
+
+.news-container {
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.header-square {
+    display: inline-block;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+}
+
+.header-square span {
+    display: inline-block;
+    width: 25px;
+    height: 48px;
+    background-color: aqua;
+    vertical-align: middle;
+}
+
+.header-square .header-text {
+    display: inline-block;
+    padding-left: 8px;
+    vertical-align: middle;
+}
+
+.news-row {
+    /*background-color: bisque;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.news-row-title {
+    font-size: 20px;
+}
+
+.news-row-ex {
+    color: #a5a5a5a5;
+}
+
+.header-square.header-small {
+    font-size: 14px;
+}
+
+.header-square.header-small span {
+    height: 32px;
+}
+
+.search-form-container {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.search-form {
+    display: inline-block;
+    width: 80%;
+}
+
+.latest-news-item {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.categories {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.categories a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

@@ -1,0 +1,124 @@
+header {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+header .logo {
+    width: 120px;
+    height: auto;
+}
+
+nav {
+    display: block;
+    background-color: #333;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.news-container {
+    text-align: center;
+}
+
+.pic-title img {
+    margin-top: 24px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.pic-title {
+    text-align: center;
+}
+
+.news-title {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.news-footer {
+    color: gray;
+    font-size: small;
+}
+
+.video {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.nav-topic {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-square span {
+    display: inline-block;
+    width: 24px;
+    height: 36px;
+    background-color: aqua;
+    vertical-align: middle;
+}
+
+.header-square .header-text {
+    display: inline-block;
+    padding-left: 8px;
+    vertical-align: middle;
+    background-color: #333;
+}
+
+.header-square {
+    display: inline-block;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    margin-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.news-item {
+    /*padding: 12px;*/
+    text-align: left;
+    /*background-color: rgb(209, 209, 209);*/
+    margin-top: 20px;
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.news-item .news-title {
+    font-size: 24px;
+}
+
+.news-item .news-title a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.news-item .news-ex {
+    color: #a5a5a5a5;
+    margin-bottom: 24px;
+}
+
+.news-container {
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
